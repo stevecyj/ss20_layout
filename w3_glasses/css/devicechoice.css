@@ -1,0 +1,36 @@
+/* * {
+    outline: 1px solid gray;
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.device_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 287px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(230, 230, 230, 1);
+}
+
+.device_species {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 131px;
+    height: 43px;
+    margin-bottom: 16px;
+    background: #aa0601;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Microsoft JhengHei, sans-serif;
+}
