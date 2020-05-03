@@ -1,54 +1,110 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 88px;
+  height: 108px;
+  background: #aa0601;
+
+  .header_menu {
     display: flex;
     justify-content: space-between;
-    padding: 30px 88px;
-    height: 108px;
-    background: #aa0601;
+    width: 512px;
 
-    .header_menu {
-        display: flex;
-        justify-content: space-between;
-        width: 512px;
-
-        li {
-            padding: 10px 0;
-        }
-
-        li a {
-            font-size: 1.25rem;
-            text-decoration: none;
-            color: white;
-        }
+    li {
+      padding: 10px 0;
     }
+
+    li a {
+      font-size: 1.25rem;
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
 
 .banner {
-    height: 840px;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("../images/banner.png");
+  height: 840px;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../images/banner.png");
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1200px;
-    height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100%;
 }
 
 .banner-title {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
 }
 
 .slogan {
-    font-size: 4rem;
-    font-weight: 600;
-    text-align: right;
-    color: #650300;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: right;
+  color: #650300;
+  line-height: 6rem;
 }
 
 .slogan-sm {
-    font-size: 2.25rem;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+}
+
+.feature {
+  padding: 64px 0;
+  background-color: #aa06010d;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #650300;
+    line-height: 4.5rem;
+  }
+
+  h3 {
+    color: #650300;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-inside {
+  display: flex;
+  padding: 16px 0 24px;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+
+  p {
+    text-align: left;
+    max-width: 208px;
+    line-height: 1.5rem;
+  }
+}
+
+.img-wrap {
+  height: 100px;
+  margin-bottom: 40px;
+
+  img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
 }
