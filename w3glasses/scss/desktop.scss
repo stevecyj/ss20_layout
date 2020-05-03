@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 88px;
+    height: 108px;
+    background: #aa0601;
+
+    .header_menu {
+        display: flex;
+        justify-content: space-between;
+        width: 512px;
+
+        li {
+            padding: 10px 0;
+        }
+
+        li a {
+            font-size: 1.25rem;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.banner {
+    height: 840px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../images/banner.png");
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.banner-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.slogan {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: right;
+    color: #650300;
+}
+
+.slogan-sm {
+    font-size: 2.25rem;
+}

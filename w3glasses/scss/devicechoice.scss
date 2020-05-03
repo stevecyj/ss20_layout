@@ -1,40 +1,42 @@
-/* * {
-    outline: 1px solid gray;
-} */
+// * {
+//     outline: 1px solid gray;
+// }
+@import url("reset.css");
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .device_menu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 312px;
     height: 287px;
     border-style: solid;
     border-width: 2px;
     border-color: rgba(230, 230, 230, 1);
-}
+    flex-direction: column;
 
-.device_menu a {
-    text-decoration: none;
+    a {
+        text-decoration: none;
+    }
 }
 
 .device_species {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
     width: 131px;
     height: 43px;
-    margin-bottom: 16px;
-    background: #aa0601;
-    color: #ffffff;
     font-size: 16px;
     font-family: Microsoft JhengHei, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: #aa0601;
 }
