@@ -9,11 +9,12 @@
   color: #650300;
   line-height: 4.5rem;
 }
+
 .t-white {
   font-size: 3rem;
   font-weight: 600;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   line-height: 4.5rem;
 }
 
@@ -206,10 +207,10 @@
 }
 
 .cobranding {
-  background-image: url("../images/bg.png");
   background-position: center top;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/bg.png');
 
   .cobranding-inner {
     padding-top: 64px;
@@ -221,12 +222,12 @@
 }
 
 .man {
-  background-image: url("../images/product-4.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 37.2%;
   height: 840px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/product-4.png');
 }
 
 .design-aside-lg {
@@ -235,20 +236,20 @@
 }
 
 .woman-curls {
-  background-image: url("../images/product-5.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 454px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/product-5.png');
 }
 
 .design-aside-sm {
-  background-image: url("../images/product-6.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 13.8%;
   height: 378px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/product-6.png');
 }
 
 .design-aside-md {
@@ -257,16 +258,16 @@
 }
 
 .woman-eyesonyou {
-  background-image: url("../images/product-7.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 203px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/product-7.png');
 }
 
 .design-footer-md {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .woman-curls,
@@ -276,11 +277,11 @@
 
 .design-glasses-more {
   position: absolute;
-  background-image: url("../images/more.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 31%;
-  height: 167px;
   left: 58%;
+  width: 31.55%;
+  height: 167px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/more.png');
 }
