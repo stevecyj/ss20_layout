@@ -26,12 +26,14 @@
   height: 840px;
   background-position: center center;
   background-size: cover;
-  background-image: url('../images/banner.png');
+  background-image: url("../images/banner.png");
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  padding-right: 12px;
+  padding-left: 12px;
+  max-width: 1224px;
   height: 100%;
 }
 
@@ -78,9 +80,7 @@
 
 .cards {
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  padding: 16px 0;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -91,6 +91,10 @@
   padding: 16px 0 24px;
   width: 25%;
   flex-direction: column;
+
+  .card-title {
+    margin-bottom: 5px;
+  }
 
   p {
     max-width: 208px;
@@ -105,7 +109,7 @@
 
   img {
     margin: 0 auto;
-    width: auto;
+    max-width: 100px;
     height: 100%;
   }
 }
@@ -125,15 +129,22 @@
 }
 
 .photo-optical {
-  background-image: url('../images/product-1.png');
+  background-image: url("../images/product-1.png");
 }
 
 .photo-sunglasses {
-  background-image: url('../images/product-2.png');
+  background-image: url("../images/product-2.png");
 }
 
 .photo-functional {
-  background-image: url('../images/product-3.png');
+  background-image: url("../images/product-3.png");
+}
+
+.product-photo {
+  width: 792px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product-optical,
@@ -148,13 +159,6 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-}
-
-.product-photo {
-  width: 792px;
-  height: 320px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .mr24 {
@@ -174,15 +178,15 @@
 }
 
 .diamond {
-  background-image: url('../images/icon-diamond.svg');
+  background-image: url("../images/icon-diamond.svg");
 }
 
 .sun {
-  background-image: url('../images/icon-sun.svg');
+  background-image: url("../images/icon-sun.svg");
 }
 
 .thunder {
-  background-image: url('../images/icon-thunder.svg');
+  background-image: url("../images/icon-thunder.svg");
 }
 
 .product-icon {
