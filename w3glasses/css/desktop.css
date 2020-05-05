@@ -4,10 +4,39 @@
   display: flex;
 }
 
+.t-red {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #650300;
+  line-height: 4.5rem;
+}
+
+.t-white {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: 4.5rem;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.ml24 {
+  margin-left: 24px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.disign-gap {
+  margin: 0 8px 8px 0;
+}
+
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -17,9 +46,6 @@
 }
 
 .header .header_menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -52,9 +78,6 @@
 }
 
 .banner-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -84,11 +107,6 @@
 
 .feature h2 {
   margin-bottom: 2.75rem;
-  font-size: 3rem;
-  font-weight: 600;
-  text-align: center;
-  color: #650300;
-  line-height: 4.5rem;
 }
 
 .feature h3 {
@@ -99,9 +117,6 @@
 }
 
 .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
@@ -110,9 +125,6 @@
 }
 
 .card-inside {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -152,11 +164,6 @@
 
 .classic h2 {
   margin-bottom: 3.75rem;
-  font-size: 3rem;
-  font-weight: 600;
-  text-align: center;
-  color: #650300;
-  line-height: 4.5rem;
 }
 
 .photo-optical {
@@ -195,24 +202,6 @@
           align-items: center;
 }
 
-.mr24 {
-  margin-right: 24px;
-}
-
-.ml24 {
-  margin-left: 24px;
-}
-
-.product-name {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.mr8 {
-  margin-right: 8px;
-}
-
 .diamond {
   background-image: url("../images/icon-diamond.svg");
 }
@@ -239,5 +228,91 @@
   line-height: 4.5rem;
   text-transform: uppercase;
   font-style: italic;
+}
+
+.cobranding {
+  background-image: url("../images/bg.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cobranding .cobranding-inner {
+  padding-top: 64px;
+}
+
+.design-wrapper {
+  margin: 0 -170px;
+}
+
+.man {
+  background-image: url("../images/product-4.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 37.2%;
+  height: 840px;
+}
+
+.design-aside-lg {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 62.3%;
+}
+
+.woman-curls {
+  background-image: url("../images/product-5.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 454px;
+}
+
+.design-aside-sm {
+  background-image: url("../images/product-6.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 13.8%;
+  height: 378px;
+}
+
+.design-aside-md {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 86.2%;
+}
+
+.woman-eyesonyou {
+  background-image: url("../images/product-7.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 203px;
+}
+
+.design-footer-md {
+  width: 100%;
+  position: relative;
+}
+
+.woman-curls,
+.woman-eyesonyou {
+  margin-right: 0;
+}
+
+.design-glasses-more {
+  position: absolute;
+  background-image: url("../images/more.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 31%;
+  height: 167px;
+  left: 58%;
 }
 /*# sourceMappingURL=desktop.css.map */

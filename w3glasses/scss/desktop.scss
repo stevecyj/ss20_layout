@@ -2,15 +2,44 @@
   display: flex;
 }
 
+.t-red {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #650300;
+  line-height: 4.5rem;
+}
+.t-white {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: 4.5rem;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.ml24 {
+  margin-left: 24px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.disign-gap {
+  margin: 0 8px 8px 0;
+}
+
 .header {
-  display: flex;
   justify-content: space-between;
   padding: 30px 88px;
   height: 108px;
   background: #aa0601;
 
   .header_menu {
-    display: flex;
     justify-content: space-between;
     width: 512px;
 
@@ -42,7 +71,6 @@
 }
 
 .banner-title {
-  display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 100%;
@@ -67,11 +95,6 @@
 
   h2 {
     margin-bottom: 2.75rem;
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
-    color: #650300;
-    line-height: 4.5rem;
   }
 
   h3 {
@@ -83,14 +106,12 @@
 }
 
 .cards {
-  display: flex;
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
 }
 
 .card-inside {
-  display: flex;
   align-items: center;
   padding: 16px 0 24px;
   width: 25%;
@@ -124,11 +145,6 @@
 
   h2 {
     margin-bottom: 3.75rem;
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
-    color: #650300;
-    line-height: 4.5rem;
   }
 }
 
@@ -153,30 +169,12 @@
 
 .product-optical,
 .product-functional {
-  // display: flex;
   align-items: center;
 }
 
 .product-sunglasses {
-  // display: flex;
   flex-direction: row-reverse;
   align-items: center;
-}
-
-.mr24 {
-  margin-right: 24px;
-}
-
-.ml24 {
-  margin-left: 24px;
-}
-
-.product-name {
-  display: flex;
-}
-
-.mr8 {
-  margin-right: 8px;
 }
 
 .diamond {
@@ -205,4 +203,84 @@
   line-height: 4.5rem;
   text-transform: uppercase;
   font-style: italic;
+}
+
+.cobranding {
+  background-image: url("../images/bg.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .cobranding-inner {
+    padding-top: 64px;
+  }
+}
+
+.design-wrapper {
+  margin: 0 -170px;
+}
+
+.man {
+  background-image: url("../images/product-4.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 37.2%;
+  height: 840px;
+}
+
+.design-aside-lg {
+  flex-direction: column;
+  width: 62.3%;
+}
+
+.woman-curls {
+  background-image: url("../images/product-5.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 454px;
+}
+
+.design-aside-sm {
+  background-image: url("../images/product-6.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 13.8%;
+  height: 378px;
+}
+
+.design-aside-md {
+  flex-direction: column;
+  width: 86.2%;
+}
+
+.woman-eyesonyou {
+  background-image: url("../images/product-7.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 203px;
+}
+
+.design-footer-md {
+  width: 100%;
+  position: relative;
+}
+
+.woman-curls,
+.woman-eyesonyou {
+  margin-right: 0;
+}
+
+.design-glasses-more {
+  position: absolute;
+  background-image: url("../images/more.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 31%;
+  height: 167px;
+  left: 58%;
 }
